@@ -1,0 +1,27 @@
+/* Star Wars Banner */
+#titles {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transform-origin: center center;
+    transform: perspective(300px) rotateX(25deg);
+    z-index: 1;
+    margin-bottom: 5vh; /* Add space below the text */
+}
+
+/* World Clock Container */
+.clock-container {
+    display: flex;
+    justify-content: space-evenly; /* Even spacing for clocks */
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure clocks appear in one row */
+    gap: 2vw; /* Spacing between clocks */
+    padding: 2vw;
+    margin-top: 5vh; /* Vertical spacing */
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
